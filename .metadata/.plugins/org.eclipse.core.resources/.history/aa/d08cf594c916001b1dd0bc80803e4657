@@ -1,0 +1,13 @@
+package entities;
+
+import java.util.Date;
+
+abstract public class Funcionarios 
+{
+	private String nome;
+	private String sexo;
+	private int rg;
+	private int matricula;
+	private double salario;
+	private Date dataDeIngresso;
+}

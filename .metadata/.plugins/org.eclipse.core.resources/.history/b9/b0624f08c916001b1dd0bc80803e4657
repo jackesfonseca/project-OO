@@ -1,0 +1,49 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author Jackes Tiago
+ *
+ */
+public class Cozinheiro extends Funcionarios
+{
+	private boolean cozinheiroChef;
+	private List<String> restaurantesAnteriores = new ArrayList<>();
+	private int numReceitasProduzidas;
+	
+	public Cozinheiro(boolean cozinheiroChef, List<String> restaurantesAnteriores, int numReceitasProduzidas) {
+		this.cozinheiroChef = cozinheiroChef;
+		this.restaurantesAnteriores = restaurantesAnteriores;
+		this.numReceitasProduzidas = numReceitasProduzidas;
+	}
+	
+	public Cozinheiro(boolean cozinheiroChef) {
+		this.cozinheiroChef = cozinheiroChef;
+	}
+
+	public boolean isCozinheiroChef() {
+		return cozinheiroChef;
+	}
+
+	public void setCozinheiroChef(boolean cozinheiroChef) {
+		this.cozinheiroChef = cozinheiroChef;
+	}
+
+	public List<String> getRestaurantesAnteriores() {
+		return restaurantesAnteriores;
+	}
+
+	public void setRestaurantesAnteriores(List<String> restaurantesAnteriores) {
+		this.restaurantesAnteriores = restaurantesAnteriores;
+	}
+
+	public int getNumReceitasProduzidas() {
+		return numReceitasProduzidas;
+	}
+
+	public void setNumReceitasProduzidas(int numReceitasProduzidas) {
+		this.numReceitasProduzidas = numReceitasProduzidas;
+	}
+}

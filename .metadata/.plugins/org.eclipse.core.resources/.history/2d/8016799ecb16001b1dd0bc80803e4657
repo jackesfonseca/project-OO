@@ -1,0 +1,96 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+
+public class Receitas 
+{
+	private String nome;
+	private int codigo;
+	private String descricao;
+	private int numPorcoes;
+	private Date dataDeCriacao;
+	private Cozinheiro cozinheiro;
+	private Categorias categoria;
+	private List<Ingredientes> ingredientes = new ArrayList<>();
+	
+	public Receitas(String nome, int codigo, String descricao, int numPorcoes, Date dataDeCriacao,
+			Cozinheiro cozinheiro, Categorias categoria, List<Ingredientes> ingredientes) {
+		super();
+		this.nome = nome;
+		this.codigo = codigo;
+		this.descricao = descricao;
+		this.numPorcoes = numPorcoes;
+		this.dataDeCriacao = dataDeCriacao;
+		this.cozinheiro = cozinheiro;
+		this.categoria = categoria;
+		this.ingredientes = ingredientes;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public int getNumPorcoes() {
+		return numPorcoes;
+	}
+
+	public void setNumPorcoes(int numPorcoes) {
+		this.numPorcoes = numPorcoes;
+	}
+
+	public Date getDataDeCriacao() {
+		return dataDeCriacao;
+	}
+
+	public void setDataDeCriacao(Date dataDeCriacao) {
+		this.dataDeCriacao = dataDeCriacao;
+	}
+
+	public Cozinheiro getCozinheiro() {
+		return cozinheiro;
+	}
+
+	public void setCozinheiro(Cozinheiro cozinheiro) {
+		this.cozinheiro = cozinheiro;
+	}
+
+	public Categorias getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Categorias categoria) {
+		this.categoria = categoria;
+	}
+
+	public void adicionarIngredientes(Ingredientes ingrediente) {
+		ingredientes.add(ingrediente);
+	}
+	
+	public void removerrIngredientes(Ingredientes ingrediente) {
+		ingredientes.remove(ingrediente);
+	}
+	
+}

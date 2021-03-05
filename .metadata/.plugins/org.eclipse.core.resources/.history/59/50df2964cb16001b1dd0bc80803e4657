@@ -1,0 +1,16 @@
+package entities;
+
+import java.util.Date;
+
+
+public class Receitas 
+{
+	private String nome;
+	private int codigo;
+	private String descricao;
+	private int numPorcoes;
+	private Date dataDeCriacao;
+	private Cozinheiro cozinheiro;
+	private Categorias categoria;
+	private Ingredientes ingredientes;
+}

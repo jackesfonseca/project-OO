@@ -1,0 +1,29 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Categorias 
+{
+	private List<String> tipos = new ArrayList<>();
+
+	public Categorias(List<String> tipos) {
+
+		this.tipos = tipos;
+	}
+
+	public List<String> getTipos() {
+		return tipos;
+	}
+
+	public void adicionarTipo(String tipo) {
+		tipos.add(tipo);
+	}
+	
+	public void removerTipo(String tipo) {
+		tipos.remove(tipo);
+	}
+	
+	
+	
+}

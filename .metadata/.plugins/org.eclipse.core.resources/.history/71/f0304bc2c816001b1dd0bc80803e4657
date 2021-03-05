@@ -1,0 +1,37 @@
+package entities;
+
+import java.util.Date;
+
+public class AvaliacaoReceita 
+{
+	private Receitas receita;
+	private Date dataDeDegustacao;
+	private float nota;
+	
+	public AvaliacaoReceita(Receitas receita, Date dataDeDegustacao, float nota) {
+		super();
+		this.receita = receita;
+		this.dataDeDegustacao = dataDeDegustacao;
+		this.nota = nota;
+	}
+	public Receitas getReceita() {
+		return receita;
+	}
+	public void setReceita(Receitas receita) {
+		this.receita = receita;
+	}
+	public Date getDataDeDegustacao() {
+		return dataDeDegustacao;
+	}
+	public void setDataDeDegustacao(Date dataDeDegustacao) {
+		this.dataDeDegustacao = dataDeDegustacao;
+	}
+	public float getNota() {
+		return nota;
+	}
+	public void setNota(float nota) {
+		this.nota = nota;
+	}
+	
+	
+}

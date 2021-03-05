@@ -1,0 +1,12 @@
+package entities;
+
+import java.util.Date;
+
+public class Ingredientes 
+{
+	private String name;
+	private String Descricao;
+	private int quantidade;
+	private String medida;//Ex.: Colher de chá, ml, etc...
+	private Date dataDeVencimento;
+}

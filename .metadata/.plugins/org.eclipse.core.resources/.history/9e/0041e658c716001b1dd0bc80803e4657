@@ -1,0 +1,10 @@
+package entities;
+
+import java.util.Date;
+
+public class AvaliacaoReceita 
+{
+	private Receitas receita;
+	private Date dataDeDegustacao;
+	private float nota;
+}

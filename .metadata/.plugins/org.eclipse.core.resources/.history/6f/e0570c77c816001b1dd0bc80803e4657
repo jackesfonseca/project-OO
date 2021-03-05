@@ -1,0 +1,7 @@
+package entities;
+
+public class Cozinheiro extends Funcionarios
+{
+	private boolean cozinheiroChef;
+	private String restaurantesAnteriores;
+}

@@ -1,0 +1,9 @@
+package entities;
+
+public class Livros
+{
+	private String titulo;
+	private int isbn;
+	private Receitas receitas;
+	private Editor editor;
+}

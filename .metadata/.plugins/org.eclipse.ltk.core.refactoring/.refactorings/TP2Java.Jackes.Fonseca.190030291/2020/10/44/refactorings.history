@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;entities.AvaliacaoReceita&apos; to &apos;AvaliaReceita&apos;&#x0D;&#x0A;- Original project: &apos;TP2Java.Jackes.Fonseca.190030291&apos;&#x0D;&#x0A;- Original element: &apos;entities.AvaliacaoReceita&apos;&#x0D;&#x0A;- Renamed element: &apos;entities.AvaliaReceita&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AvaliacaoReceita&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;entities{AvaliacaoReceita.java[AvaliacaoReceita" matchStrategy="1" name="AvaliaReceita" qualified="false" references="true" similarDeclarations="false" stamp="1603633707491" textual="false" version="1.0"/>
+</session>

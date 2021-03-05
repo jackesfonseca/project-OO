@@ -1,0 +1,26 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Degustador extends Funcionarios
+{
+	private List<AvaliaReceita> avaliacoes =  new ArrayList<>();
+
+	public Degustador(List<AvaliaReceita> avaliacoes) {
+		super();
+		this.avaliacoes = avaliacoes;
+	}
+
+	public List<AvaliaReceita> getAvaliacao() {
+		return avaliacoes;
+	}
+
+	public void adicionarAvaliacao(AvaliaReceita avaliacao) {
+		avaliacoes.add(avaliacao);
+	}
+	
+	public void removerAvaliacao(AvaliaReceita avaliacao) {
+		avaliacoes.remove(avaliacao);
+	}
+}

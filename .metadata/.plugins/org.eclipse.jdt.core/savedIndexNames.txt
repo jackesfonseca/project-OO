@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+C:\Users\Jackes Tiago\Desktop\TP6.Jackes.Fonseca.190030291\.metadata\.plugins\org.eclipse.jdt.core
+3013950663.index
+4080255401.index
+129598997.index
+2521842258.index
+847480040.index
+3995237016.index
+3145824753.index
+2131045403.index
+3370900162.index
+128966252.index
+2424646841.index
+2961260230.index
+2103231971.index
+2468415394.index
+1663913842.index
+2532796076.index
